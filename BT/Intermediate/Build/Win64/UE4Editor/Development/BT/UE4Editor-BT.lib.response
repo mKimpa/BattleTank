@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BT.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BT.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BT.init.gen.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.gen.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Default.rc2.res"
+/OUT:"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT.lib"
+/INCLUDE:IMPLEMENT_MODULE_BT

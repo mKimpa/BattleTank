@@ -1,0 +1,2 @@
+P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Definitions.BT.h
+P:\UE4\BattleTank\BT\Source\BT\BT.h

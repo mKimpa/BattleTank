@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"P:\\UE4\\BattleTank\\BT\\Source\\BT\\BT.Build.cs",
+		"P:\\UE4\\BattleTank\\BT\\Source\\BT.Target.cs",
+		"P:\\UE4\\BattleTank\\BT\\Source\\BTEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

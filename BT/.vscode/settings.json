@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"P:/UE4/BattleTank/BT/.vscode": true,
+		"P:/UE4/BattleTank/BT/Content": true,
+		"P:/UE4/BattleTank/BT/Intermediate": true,
+		"P:/UE4/BattleTank/BT/Saved": true
+	}
+}
