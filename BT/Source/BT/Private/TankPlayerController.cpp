@@ -25,16 +25,53 @@ void ATankPlayerController::BeginPlay()
 void ATankPlayerController::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-    //AimTowardsCrosshair
-    UE_LOG(LogTemp, Warning, TEXT("PlayerController: TICK!"));
+    AimTowardsCrosshair();
 }
 
 void ATankPlayerController::AimTowardsCrosshair()
 {
-    if (!GetControlledTank()) { return;  }
+    if (!GetControlledTank()) { return; }
+
+    FVector HitLocation; // Out parameter
+    if (GetSightRayHitLocation(HitLocation))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("LookDirection is: %s"), *HitLocation.ToString());
+        // Прицеливаемся в HitLocation
+    }
+    
+    
 
     // Получить место на которое указывает прицел
     // Если мы попадаем на что-то
         // Поворачиваем ствол в этом направлении
 
+}
+
+bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
+{
+    // Находим положение прицел ана экране
+    int32 ViewportSizeX, ViewportSizeY;
+    GetViewportSize(ViewportSizeX, ViewportSizeY);
+    auto ScreenLocation = FVector2D(ViewportSizeX * CrosshairXLocation, ViewportSizeY * CrosshairYLocation);
+
+    // Проецируем это положение в мировые координаты
+    FVector LookDirection;
+    if (GetLookDirection(ScreenLocation, LookDirection))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Look direction is: %s"), *LookDirection.ToString());
+    }
+
+    // Пускаем луч через прицел в навправлении взгляда и получаем точку пересечения с объектом
+
+    return true;
+}
+
+bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
+{
+    FVector CameraWorldLocation; // нам не нужен
+    return DeprojectScreenPositionToWorld(
+        ScreenLocation.X,
+        ScreenLocation.Y,
+        CameraWorldLocation,
+        LookDirection);
 }
