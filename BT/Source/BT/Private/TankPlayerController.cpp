@@ -35,7 +35,7 @@ void ATankPlayerController::AimTowardsCrosshair()
     FVector HitLocation; // Out parameter
     if (GetSightRayHitLocation(HitLocation))
     {
-        UE_LOG(LogTemp, Warning, TEXT("LookDirection is: %s"), *HitLocation.ToString());
+        UE_LOG(LogTemp, Warning, TEXT("Hit Location: %s"), *HitLocation.ToString());
         // Прицеливаемся в HitLocation
     }
     
@@ -58,12 +58,10 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
     FVector LookDirection;
     if (GetLookDirection(ScreenLocation, LookDirection))
     {
-        UE_LOG(LogTemp, Warning, TEXT("Look direction is: %s"), *LookDirection.ToString());
+        GetLookVectorHitLocation(LookDirection, HitLocation);
+        return true;
     }
-
-    // Пускаем луч через прицел в навправлении взгляда и получаем точку пересечения с объектом
-
-    return true;
+    return false;
 }
 
 bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
@@ -74,4 +72,21 @@ bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& 
         ScreenLocation.Y,
         CameraWorldLocation,
         LookDirection);
+}
+
+bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
+{
+    FHitResult OutHit;
+    auto StartLocation = PlayerCameraManager->GetCameraLocation();
+    auto EndLocation = LookDirection * ShootingDistance;
+    if (GetWorld()->LineTraceSingleByChannel(
+        OutHit,
+        StartLocation,
+        EndLocation,
+        ECollisionChannel::ECC_Visibility))
+    {
+        HitLocation = OutHit.Location;
+        return true;
+    }
+    return false;
 }

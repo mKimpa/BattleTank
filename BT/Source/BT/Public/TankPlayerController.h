@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Tank.h"
+#include "Engine/World.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
@@ -28,10 +29,14 @@ class BT_API ATankPlayerController : public APlayerController
 	virtual void Tick(float DeltaTime) override;
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 
 	UPROPERTY(EditAnywhere)
 	float CrosshairXLocation = 0.5;
 	
 	UPROPERTY(EditAnywhere)
 	float CrosshairYLocation = 0.33333;
+
+	UPROPERTY(EditAnywhere)
+	float ShootingDistance = 1000000;
 };
