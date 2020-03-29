@@ -18,6 +18,9 @@ class BT_API ATankAIController : public AAIController
 
 	private:
 	virtual void BeginPlay() override;
+	virtual void Tick(float Deltatime) override;
+
 	ATank* GetControlledTank() const;
 	ATank* GetPlayerTank() const;
+	void AimAtPlayer();
 };
