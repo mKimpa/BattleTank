@@ -4,8 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "TankAimingComponent.h"
+//#include "TankAimingComponent.h"
 #include "Tank.generated.h"
+
+// Forward declarations
+class UTankAimingComponent;
 
 UCLASS()
 class BT_API ATank : public APawn
@@ -16,9 +19,6 @@ private:
 
 	// Sets default values for this pawn's properties
 	ATank();
-
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -36,5 +36,5 @@ public:
 	void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = "Setup") 
-	void SetBarrelREference(UStaticMeshComponent* BarrelToSet);
+	void SetBarrelReference(UTankBarrel* BarrelToSet);
 };
