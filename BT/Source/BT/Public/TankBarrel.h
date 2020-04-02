@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/StaticMeshComponent.h"
+#include "UObject/ConstructorHelpers.h"
 #include "TankBarrel.generated.h"
 
 /**
@@ -19,8 +20,10 @@ public:
 	void Elevate(float RelativeSpeed);
 
 private:
+	UTankBarrel();
+
 	UPROPERTY(EditAnywhere, Category = "Setup")
-	float MaxDegreesPerSecond = 20;
+	float MaxDegreesPerSecond = 5;
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float MaxElevationDegrees = 20;

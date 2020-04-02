@@ -2,7 +2,6 @@
 
 #pragma once
 
-//#include "Tank.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
@@ -40,5 +39,5 @@ class BT_API ATankPlayerController : public APlayerController
 	float CrosshairYLocation = 0.33333;
 
 	UPROPERTY(EditAnywhere)
-	float ShootingDistance = 1000000;
+	float ShootingDistance = 100000;
 };

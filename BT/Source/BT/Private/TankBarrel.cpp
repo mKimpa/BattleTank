@@ -3,6 +3,18 @@
 
 #include "TankBarrel.h"
 
+
+UTankBarrel::UTankBarrel()
+{
+	PrimaryComponentTick.bCanEverTick = false;
+	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Meshes/tank_fbx_Barrel'"));
+	if (Mesh.Object)
+	{
+		SetStaticMesh(Mesh.Object);
+		SetRelativeLocation(FVector(0));
+	}
+}
+
 void UTankBarrel::Elevate(float RelativeSpeed)
 {
 	RelativeSpeed = FMath::Clamp<float>(RelativeSpeed, -1, +1);

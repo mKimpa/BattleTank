@@ -12,6 +12,7 @@
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAimingComponent.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankBarrel.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankPlayerController.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankTurret.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BT.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BT.init.gen.cpp.obj"
@@ -21,6 +22,7 @@
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAimingComponent.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankBarrel.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankPlayerController.gen.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankTurret.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Default.rc2.res"
 /OUT:"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT.lib"
 /INCLUDE:IMPLEMENT_MODULE_BT

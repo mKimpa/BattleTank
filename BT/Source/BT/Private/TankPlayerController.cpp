@@ -19,7 +19,7 @@ void ATankPlayerController::BeginPlay()
     }
     else
     {
-        UE_LOG(LogTemp, Warning, TEXT("Player start on %s"), *GetPawn()->GetName());
+        UE_LOG(LogTemp, Warning, TEXT("Player start on %s"), *(ControlledTank->GetName()));
     }
 }
 
@@ -38,13 +38,6 @@ void ATankPlayerController::AimTowardsCrosshair()
     {
         GetControlledTank()->AimAt(HitLocation);
     }
-    
-    
-
-    // ѕолучить место на которое указывает прицел
-    // ≈сли мы попадаем на что-то
-        // ѕоворачиваем ствол в этом направлении
-
 }
 
 bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
@@ -58,11 +51,12 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
     FVector LookDirection;
     if (GetLookDirection(ScreenLocation, LookDirection))
     {
-        GetLookVectorHitLocation(LookDirection, HitLocation);
-        return true;
+        if (!GetLookVectorHitLocation(LookDirection, HitLocation))
+        {
+            return false;
+        }
     }
-    HitLocation = FVector(0);
-    return false;
+    return true;
 }
 
 bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
@@ -79,13 +73,14 @@ bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVec
 {
     FHitResult OutHit;
     auto StartLocation = PlayerCameraManager->GetCameraLocation();
-    auto EndLocation = LookDirection * ShootingDistance;
+    auto EndLocation = StartLocation + (LookDirection * ShootingDistance);
     if (GetWorld()->LineTraceSingleByChannel(
         OutHit,
         StartLocation,
         EndLocation,
         ECollisionChannel::ECC_Visibility))
     {
+
         HitLocation = OutHit.Location;
         return true;
     }

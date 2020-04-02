@@ -4,11 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-//#include "TankAimingComponent.h"
 #include "Tank.generated.h"
 
 // Forward declarations
 class UTankAimingComponent;
+class UTankTurret;
+class UTankBarrel;
 
 UCLASS()
 class BT_API ATank : public APawn
@@ -24,7 +25,7 @@ private:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, Category = "Firing")
-	float LaunchSpeed = 100000; // 1000 m/s
+	float LaunchSpeed = 10000; // 100 m/s
 
 protected:
 	// Called when the game starts or when spawned
@@ -37,4 +38,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Setup") 
 	void SetBarrelReference(UTankBarrel* BarrelToSet);
+
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	void SetTurretReference(UTankTurret* TurretToSet);
 };
