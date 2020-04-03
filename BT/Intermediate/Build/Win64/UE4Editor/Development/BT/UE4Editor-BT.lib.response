@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Projectile.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Tank.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAIController.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAimingComponent.cpp.obj"
@@ -17,6 +18,7 @@
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BT.init.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.gen.cpp.obj"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Projectile.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Tank.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAIController.gen.cpp.obj"
 "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\TankAimingComponent.gen.cpp.obj"
