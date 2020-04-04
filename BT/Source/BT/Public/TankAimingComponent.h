@@ -22,6 +22,7 @@ private:
 	UTankBarrel* Barrel = nullptr;
 	UTankTurret* Turret = nullptr;
 	void MoveBarrelTowards(FVector AimDirection);
+	float GetTurretDeltaRotator(float BarrelYaw, float AimYaw);
 
 	
 
