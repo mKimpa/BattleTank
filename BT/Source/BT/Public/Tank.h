@@ -31,6 +31,10 @@ private:
 	// Local barrel reference fo spawning projectile
 	UTankBarrel* Barrel = nullptr;
 
+	float REloadTimeSeconds = 3;
+
+	float LastFireTime = 0;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
