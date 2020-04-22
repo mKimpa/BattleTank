@@ -2,8 +2,9 @@ P:\UE4\BattleTank\BT\Source\BT\Public\Projectile.h
 P:\UE4\BattleTank\BT\Source\BT\Public\Tank.h
 P:\UE4\BattleTank\BT\Source\BT\Public\TankAimingComponent.h
 P:\UE4\BattleTank\BT\Source\BT\Public\TankBarrel.h
-P:\UE4\BattleTank\BT\Source\BT\Public\TankPlayerController.h
-P:\UE4\BattleTank\BT\Source\BT\Public\TankTurret.h
 P:\UE4\BattleTank\BT\Source\BT\Public\TankAIController.h
+P:\UE4\BattleTank\BT\Source\BT\Public\TankPlayerController.h
 P:\UE4\BattleTank\BT\Source\BT\Public\TankTrack.h
+P:\UE4\BattleTank\BT\Source\BT\Public\TankTurret.h
+P:\UE4\BattleTank\BT\Source\BT\Public\TankMovementComponent.h
 P:\UE4\BattleTank\BT\Source\BT\BTGameModeBase.h
