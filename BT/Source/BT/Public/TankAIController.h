@@ -18,8 +18,11 @@ class BT_API ATankAIController : public AAIController
 {
 	GENERATED_BODY()
 
-	private:
+private:
 	virtual void BeginPlay() override;
 	virtual void Tick(float Deltatime) override;
 	void AimAtPlayer();
+
+	// How close can the AI tank get
+	float AcceptanceRadius = 3000; 
 };
