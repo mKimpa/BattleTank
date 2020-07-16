@@ -20,6 +20,10 @@ class BT_API ATankPlayerController : public APlayerController
 	private:
 
 	virtual void BeginPlay() override;
+
+
+	protected:
+	UFUNCTION(BlueprintCallable, Category = "Setup")
 	ATank* GetControlledTank() const;
 
 	//Поворачивает ствол пока выстрел не попадет в точку прицеливания
