@@ -8,28 +8,30 @@
 
 // Forward declarations
 class ATank;
+class UTankAimingComponent;
 
 /**
- * 
+ *  
  */
 UCLASS()
 class BT_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
-	private:
+private:
 
 	virtual void BeginPlay() override;
 
 
-	protected:
-	UFUNCTION(BlueprintCallable, Category = "Setup")
-	ATank* GetControlledTank() const;
+protected:
 
 	//Поворачивает ствол пока выстрел не попадет в точку прицеливания
 	void AimTowardsCrosshair();
 
-	public:
+	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
+	void FoundAimingComponent(UTankAimingComponent* AimCompRef);
+
+public:
 	
 	virtual void Tick(float DeltaTime) override;
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
