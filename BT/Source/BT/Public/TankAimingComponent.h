@@ -19,6 +19,7 @@ enum class EFiringState : uint8
 // Forward declarations
 class UTankBarrel;
 class UTankTurret;
+class AProjectile;
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BT_API UTankAimingComponent : public UActorComponent
@@ -29,11 +30,23 @@ private:
 	// Sets default values for this component's properties
 	UTankAimingComponent();
 
+	void MoveBarrelTowards(FVector AimDirection);
+
 	UTankBarrel* Barrel = nullptr;
 	UTankTurret* Turret = nullptr;
 
-	void MoveBarrelTowards(FVector AimDirection);
 	float GetTurretDeltaRotator(float BarrelYaw, float AimYaw);
+
+	UPROPERTY(EditDefaultsOnly, Category = "Firing")
+	float LaunchSpeed = 10000; // 50 m/s
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	TSubclassOf<AProjectile> ProjectileBlueprint;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Firing")
+	float REloadTimeSeconds = 3;
+
+	float LastFireTime = 0;
 
 protected:
 	// Called when the game starts
@@ -50,8 +63,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
 
-	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	float LaunchSpeed = 10000; // 50 m/s
+	UFUNCTION(BlueprintCallable, Category = "Action")
+	void Fire();
+
+
 
 		
 };

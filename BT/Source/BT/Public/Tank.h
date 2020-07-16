@@ -6,10 +6,6 @@
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h"
 
-// Forward declarations
-
-class UTankBarrel;
-class AProjectile;
 
 UCLASS()
 class BT_API ATank : public APawn
@@ -22,22 +18,4 @@ private:
 	ATank();
 
 	virtual void BeginPlay() override;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	TSubclassOf<AProjectile> ProjectileBlueprint;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	float LaunchSpeed = 10000; // 50 m/s
-
-	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	float REloadTimeSeconds = 3;
-
-	float LastFireTime = 0;
-
-	UTankBarrel* Barrel = nullptr; // TODO Remove 
-
-public:	
-
-	UFUNCTION(BlueprintCallable, Category = "Action")
-	void Fire();
 };
