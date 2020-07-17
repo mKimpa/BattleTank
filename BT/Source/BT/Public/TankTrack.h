@@ -18,9 +18,20 @@ class BT_API UTankTrack : public UStaticMeshComponent
 private:
 	UTankTrack();
 
+	virtual void BeginPlay() override;
+
+	void AplySidewaysForce();
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+
+	float CurrentThrottle = 0;
+
 public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetThrottle(float Throttle);
+
+	void DriveTrack(float Throttle);
 
 	// Max fprce per track in Newtons
 	UPROPERTY(EditDefaultsOnly)
