@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "BT",
-			"Path": "P:\\UE4\\BattleTank\\BT\\Source\\BT.Target.cs",
+			"Path": "H:\\repo\\BattleTank\\BT\\Source\\BT.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "BTEditor",
-			"Path": "P:\\UE4\\BattleTank\\BT\\Source\\BTEditor.Target.cs",
+			"Path": "H:\\repo\\BattleTank\\BT\\Source\\BTEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
