@@ -31,7 +31,7 @@
 /wd4838
 /we4668
 /I .
-/I H:\repo\BattleTank\BT\Source\BT\Private
+/I P:\UE4\BattleTank\BT\Source\BT\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -229,9 +229,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
-/I H:\repo\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Inc\BT
-/I H:\repo\BattleTank\BT\Source
-/I H:\repo\BattleTank\BT\Source\BT\Public
+/I P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Inc\BT
+/I P:\UE4\BattleTank\BT\Source
+/I P:\UE4\BattleTank\BT\Source\BT\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"H:\repo\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"H:\repo\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"H:\repo\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"H:\repo\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Inc\BT\BTGameModeBase.gen.cpp"
-/FI"H:\repo\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Definitions.BT.h"
-/Fo"H:\repo\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.gen.cpp.obj"
+/FI"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Inc\BT\BTGameModeBase.gen.cpp"
+/FI"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\Definitions.BT.h"
+/Fo"P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\BTGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
