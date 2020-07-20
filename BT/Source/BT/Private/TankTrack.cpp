@@ -12,6 +12,7 @@ UTankTrack::UTankTrack()
 		SetStaticMesh(Mesh.Object);
 		SetRelativeLocation(FVector(0));
 	}
+	
 }
 
 void UTankTrack::BeginPlay()
