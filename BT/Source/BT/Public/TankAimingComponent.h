@@ -53,14 +53,14 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Firing")
 	float REloadTimeSeconds = 3;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Firing")
+	int32 RoundsLeft = 15;
+
 	float LastFireTime = 0;
 
 	FVector AimDirection;
 
 	bool IsBarrelMoving() const;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	int32 RoundsLeft = 5;
 
 protected:
 	
@@ -69,18 +69,20 @@ protected:
 
 public:	
 
-	void AimAt(FVector HitLocation);
-
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
 
 	UFUNCTION(BlueprintCallable, Category = "Action")
 	void Fire();
 
-	EFiringState GetFiringState() const;
-
 	UFUNCTION(BlueprintCallable, Category = "Firing")
 	int32 GetRoundsLeft() const;
+
+	void AimAt(FVector HitLocation);
+
+	EFiringState GetFiringState() const;
+
+	
 
 	
 
