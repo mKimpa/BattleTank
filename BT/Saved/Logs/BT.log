@@ -804,3 +804,387 @@ Script Stack (0 frames):
 [2020.07.21-19.42.35:356][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.07.21-19.42.35:383][438]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
 [2020.07.21-19.42.35:412][439]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.07.21-19.44.53:800][432]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Projectile/Projectile_BP.Projectile_BP
+[2020.07.21-19.44.54:089][432]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.07.21-19.44.59:240][840]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-19.44.59:240][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-19.44.59:298][840]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Projectile/Projectile_BP.Projectile_BP
+[2020.07.21-19.44.59:731][840]LogSlate: Took 0.007732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.21-19.45.00:051][867]LogSlate: Took 0.006079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.21-19.45.06:260][532]BlueprintLog: New page: Compile Projectile_BP
+[2020.07.21-19.45.06:549][532]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.07.21-19.53.29:144][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.07.21-19.53.29:145][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BattleGround' took 0.040
+[2020.07.21-19.53.29:145][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Projectile/Projectile_BP] ([1] browsable assets)...
+[2020.07.21-19.53.29:145][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile/Projectile_BP]
+[2020.07.21-19.53.29:145][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile/Projectile_BP" FILE="P:/UE4/BattleTank/BT/Saved/Autosaves/Game/Projectile/Projectile_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.07.21-19.53.29:173][228]LogSavePackage: Moving 'P:/UE4/BattleTank/BT/Saved/Projectile_BP_Auto1F75D849E4F1D131202C44589619F152E.tmp' to 'P:/UE4/BattleTank/BT/Saved/Autosaves/Game/Projectile/Projectile_BP_Auto1.uasset'
+[2020.07.21-19.53.29:175][228]LogFileHelpers: Auto-saving content packages took 0.029
+[2020.07.21-20.06.10:576][742]Candidate modules for hot reload:
+[2020.07.21-20.06.10:576][742]  BT
+[2020.07.21-20.06.10:576][742]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BT,9341 Win64 Development -TargetType=Editor -Project="P:/UE4/BattleTank/BT/BT.uproject" "P:/UE4/BattleTank/BT/BT.uproject"  -IgnoreJunk]
+[2020.07.21-20.06.10:578][742]Warning: Starting HotReload took  0.0s.
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: New page: Compilation - 22 июл. 2020 г., 02:06:38
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (P:\UE4\BattleTank).
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Parsing headers for BTEditor
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   Running UnrealHeaderTool "P:\UE4\BattleTank\BT\BT.uproject" "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\BTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Reflection code generated for BTEditor in 9,9465909 seconds
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Building BTEditor...
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.21-20.06.38:518][792]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [1/9] BT.init.gen.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [2/9] Tank.gen.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [3/9] TankAimingComponent.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [4/9] Projectile.gen.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [5/9] Tank.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [6/9] Projectile.cpp
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:   [7/9] UE4Editor-BT-9341.lib
+[2020.07.21-20.06.38:518][792]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-9341.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-9341.exp
+[2020.07.21-20.06.38:519][792]CompilerResultsLog:   [8/9] UE4Editor-BT-9341.dll
+[2020.07.21-20.06.38:519][792]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-9341.suppressed.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-9341.suppressed.exp
+[2020.07.21-20.06.38:519][792]CompilerResultsLog:   [9/9] BTEditor.target
+[2020.07.21-20.06.38:519][792]CompilerResultsLog: Total time in Parallel executor: 15,60 seconds
+[2020.07.21-20.06.38:519][792]CompilerResultsLog: Total execution time: 27,57 seconds
+[2020.07.21-20.06.38:519][792]LogMainFrame: MainFrame: Module compiling took 27.946 seconds
+[2020.07.21-20.06.38:551][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.21-20.06.38:606][792]LogClass: Could not find existing class Projectile in package /Script/BT for HotReload, assuming new class
+[2020.07.21-20.06.38:606][792]LogClass: Function OnHit is new.
+[2020.07.21-20.06.38:606][792]LogClass: Could not find existing class Tank in package /Script/BT for HotReload, assuming new class
+[2020.07.21-20.06.38:619][792]LogClass: EFiringState HotReload.
+[2020.07.21-20.06.38:631][792]LogHotReload: Re-instancing Projectile after hot-reload.
+[2020.07.21-20.06.39:099][792]LogHotReload: Re-instancing Tank after hot-reload.
+[2020.07.21-20.06.39:579][792]LogContentBrowser: Native class hierarchy updated for 'BT' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.07.21-20.06.39:590][792]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.07.21-20.06.39:717][792]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.07.21-20.06.39:737][792]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3052 classes and 735 folders.
+[2020.07.21-20.06.39:737][792]Display: HotReload took 29.2s.
+[2020.07.21-20.07.15:105][897]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.21-20.07.15:131][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.07.15:131][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.21-20.07.15:131][897]PIE: New page: PIE session: BattleGround (22 июл. 2020 г., 02:07:15)
+[2020.07.21-20.07.15:131][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.07.19:599][897]LogPlayLevel: PIE: StaticDuplicateObject took: (4.467511s)
+[2020.07.21-20.07.19:601][897]LogAIModule: Creating AISystem for world BattleGround
+[2020.07.21-20.07.19:601][897]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2020.07.21-20.07.19:601][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (4.469016s)
+[2020.07.21-20.07.19:667][897]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.07.21-20.07.19:669][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.21-20.07.19:669][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.21-20.07.19:670][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.21-20.07.19:670][897]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.21-20.07.19:670][897]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Name: Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Is Default: Yes
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Sample Rate: 44100
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: Channel Order:
+[2020.07.21-20.07.19:692][897]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-20.07.19:693][897]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-20.07.19:707][897]LogAudioMixer: Display: Using Audio Device Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.07.19:708][897]LogInit: FAudioDevice initialized.
+[2020.07.21-20.07.19:716][897]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.07.21-20.07.19:726][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.07.21-23.07.19
+[2020.07.21-20.07.19:727][897]LogWorld: Bringing up level for play took: 0.010376
+[2020.07.21-20.07.19:727][897]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.07.21-20.07.19:731][897]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 4,595
+[2020.07.21-20.07.19:731][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.07.23:888][375]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.07.27:280][763]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.07.31:282][243]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.07.35:294][722]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.07.39:303][202]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.07.41:497][465]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.07.41:512][465]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.21-20.07.41:533][465]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.21-20.07.41:533][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.07.41:534][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.07.41:534][465]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.07.41:534][465]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.07.41:534][465]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-20.07.41:536][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.07.41:544][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.21-20.07.41:544][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.07.41:550][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.07.41:586][465]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.07.41:589][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.07.41:617][465]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.07.21-20.07.41:648][466]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.07.21-20.08.43:268][907]Candidate modules for hot reload:
+[2020.07.21-20.08.43:268][907]  BT
+[2020.07.21-20.08.43:268][907]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BT,4997 Win64 Development -TargetType=Editor -Project="P:/UE4/BattleTank/BT/BT.uproject" "P:/UE4/BattleTank/BT/BT.uproject"  -IgnoreJunk]
+[2020.07.21-20.08.43:270][907]Warning: Starting HotReload took  0.0s.
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: New page: Compilation - 22 июл. 2020 г., 02:08:55
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (P:\UE4\BattleTank).
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Parsing headers for BTEditor
+[2020.07.21-20.08.55:263][345]CompilerResultsLog:   Running UnrealHeaderTool "P:\UE4\BattleTank\BT\BT.uproject" "P:\UE4\BattleTank\BT\Intermediate\Build\Win64\BTEditor\Development\BTEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Reflection code generated for BTEditor in 8,3047846 seconds
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Building BTEditor...
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.21-20.08.55:263][345]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.07.21-20.08.55:263][345]CompilerResultsLog:   [1/6] Tank.cpp
+[2020.07.21-20.08.55:263][345]CompilerResultsLog:   [2/6] BT.init.gen.cpp
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:   [3/6] Tank.gen.cpp
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:   [4/6] UE4Editor-BT-4997.lib
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-4997.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-4997.exp
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:   [5/6] UE4Editor-BT-4997.dll
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-4997.suppressed.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-4997.suppressed.exp
+[2020.07.21-20.08.55:264][345]CompilerResultsLog:   [6/6] BTEditor.target
+[2020.07.21-20.08.55:264][345]CompilerResultsLog: Total time in Parallel executor: 1,49 seconds
+[2020.07.21-20.08.55:264][345]CompilerResultsLog: Total execution time: 11,62 seconds
+[2020.07.21-20.08.55:264][345]LogMainFrame: MainFrame: Module compiling took 11.999 seconds
+[2020.07.21-20.08.55:317][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.07.21-20.08.55:347][345]LogClass: Could not find existing class Tank in package /Script/BT for HotReload, assuming new class
+[2020.07.21-20.08.55:364][345]LogClass: EFiringState HotReload.
+[2020.07.21-20.08.55:374][345]LogHotReload: Re-instancing Tank after hot-reload.
+[2020.07.21-20.08.55:940][345]LogContentBrowser: Native class hierarchy updated for 'BT' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.07.21-20.08.55:952][345]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.07.21-20.08.56:111][345]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2020.07.21-20.08.56:131][345]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3052 classes and 735 folders.
+[2020.07.21-20.08.56:131][345]Display: HotReload took 12.9s.
+[2020.07.21-20.09.31:868][526]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.21-20.09.31:893][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.09.31:893][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.21-20.09.31:894][526]PIE: New page: PIE session: BattleGround (22 июл. 2020 г., 02:09:31)
+[2020.07.21-20.09.31:894][526]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.09.36:308][526]LogPlayLevel: PIE: StaticDuplicateObject took: (4.414014s)
+[2020.07.21-20.09.36:309][526]LogAIModule: Creating AISystem for world BattleGround
+[2020.07.21-20.09.36:309][526]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2020.07.21-20.09.36:309][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (4.415505s)
+[2020.07.21-20.09.36:402][526]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.21-20.09.36:405][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.21-20.09.36:405][526]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.21-20.09.36:405][526]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Name: Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Is Default: Yes
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Sample Rate: 44100
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: Channel Order:
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-20.09.36:427][526]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-20.09.36:440][526]LogAudioMixer: Display: Using Audio Device Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.09.36:442][526]LogInit: FAudioDevice initialized.
+[2020.07.21-20.09.36:453][526]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.07.21-20.09.36:464][526]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.07.21-23.09.36
+[2020.07.21-20.09.36:464][526]LogWorld: Bringing up level for play took: 0.010358
+[2020.07.21-20.09.36:464][526]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.07.21-20.09.36:468][526]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 5,332
+[2020.07.21-20.09.36:468][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.09.41:286][ 81]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.09.41:710][129]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.09.45:287][545]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.09.49:291][ 25]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.09.53:294][505]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.09.57:296][985]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.10.01:299][465]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.10.05:303][945]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 0.000000
+[2020.07.21-20.10.06:039][ 33]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.10.06:062][ 33]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.21-20.10.06:081][ 33]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.21-20.10.06:082][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.10.06:082][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.10.06:082][ 33]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.10.06:082][ 33]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.10.06:082][ 33]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-20.10.06:085][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.10.06:094][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.21-20.10.06:095][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.10.06:100][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.10.06:139][ 33]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.10.06:143][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.10.06:195][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.07.21-20.10.06:223][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.07.21-20.11.38:926][715]Candidate modules for hot reload:
+[2020.07.21-20.11.38:926][715]  BT
+[2020.07.21-20.11.38:926][715]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BT,1879 Win64 Development -TargetType=Editor -Project="P:/UE4/BattleTank/BT/BT.uproject" "P:/UE4/BattleTank/BT/BT.uproject"  -IgnoreJunk]
+[2020.07.21-20.11.38:928][715]Warning: Starting HotReload took  0.0s.
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog: New page: Compilation - 22 июл. 2020 г., 02:11:42
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (P:\UE4\BattleTank).
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog: Building BTEditor...
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog:   [1/4] Tank.cpp
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog:   [2/4] UE4Editor-BT-1879.lib
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-1879.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-1879.exp
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog:   [3/4] UE4Editor-BT-1879.dll
+[2020.07.21-20.11.42:773][  6]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-1879.suppressed.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-1879.suppressed.exp
+[2020.07.21-20.11.42:774][  6]CompilerResultsLog:   [4/4] BTEditor.target
+[2020.07.21-20.11.42:774][  6]CompilerResultsLog: Total time in Parallel executor: 1,98 seconds
+[2020.07.21-20.11.42:774][  6]CompilerResultsLog: Total execution time: 3,76 seconds
+[2020.07.21-20.11.42:774][  6]LogMainFrame: MainFrame: Module compiling took 3.851 seconds
+[2020.07.21-20.11.42:811][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.07.21-20.11.42:857][  6]LogClass: EFiringState HotReload.
+[2020.07.21-20.11.42:865][  6]LogContentBrowser: Native class hierarchy updated for 'BT' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.07.21-20.11.42:877][  6]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.07.21-20.11.43:028][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.07.21-20.11.43:047][  6]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3052 classes and 735 folders.
+[2020.07.21-20.11.43:047][  6]Display: HotReload took  4.1s.
+[2020.07.21-20.11.45:879][213]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.21-20.11.45:905][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.11.45:905][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.21-20.11.45:905][213]PIE: New page: PIE session: BattleGround (22 июл. 2020 г., 02:11:45)
+[2020.07.21-20.11.45:905][213]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.11.50:361][213]LogPlayLevel: PIE: StaticDuplicateObject took: (4.455170s)
+[2020.07.21-20.11.50:362][213]LogAIModule: Creating AISystem for world BattleGround
+[2020.07.21-20.11.50:364][213]LogPlayLevel: PIE: World Init took: (0.003226s)
+[2020.07.21-20.11.50:364][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (4.458607s)
+[2020.07.21-20.11.50:452][213]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.07.21-20.11.50:454][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.21-20.11.50:454][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.21-20.11.50:454][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.21-20.11.50:455][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.21-20.11.50:455][213]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.21-20.11.50:455][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.21-20.11.50:455][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.21-20.11.50:455][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.21-20.11.50:455][213]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.21-20.11.50:455][213]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Name: Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Is Default: Yes
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Sample Rate: 44100
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: Channel Order:
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-20.11.50:478][213]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-20.11.50:491][213]LogAudioMixer: Display: Using Audio Device Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.11.50:493][213]LogInit: FAudioDevice initialized.
+[2020.07.21-20.11.50:498][213]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.07.21-20.11.50:509][213]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.07.21-23.11.50
+[2020.07.21-20.11.50:510][213]LogWorld: Bringing up level for play took: 0.010683
+[2020.07.21-20.11.50:510][213]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.07.21-20.11.50:514][213]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 5,377
+[2020.07.21-20.11.50:514][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.11.59:275][215]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 20
+[2020.07.21-20.12.03:280][695]LogTemp: Warning: DamageAmount = 20.000000, DamageToApply = 20
+[2020.07.21-20.12.03:932][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.12.03:961][773]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.21-20.12.03:981][773]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.21-20.12.03:981][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.12.03:982][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.12.03:982][773]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.12.03:982][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.12.03:982][773]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-20.12.03:984][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.12.03:992][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.21-20.12.03:992][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.12.03:998][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.12.04:035][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.12.04:038][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.12.04:061][773]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.07.21-20.12.04:091][774]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.07.21-20.13.26:908][556]Candidate modules for hot reload:
+[2020.07.21-20.13.26:908][556]  BT
+[2020.07.21-20.13.26:908][556]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BT,5230 Win64 Development -TargetType=Editor -Project="P:/UE4/BattleTank/BT/BT.uproject" "P:/UE4/BattleTank/BT/BT.uproject"  -IgnoreJunk]
+[2020.07.21-20.13.26:911][556]Warning: Starting HotReload took  0.0s.
+[2020.07.21-20.13.29:500][762]CompilerResultsLog: New page: Compilation - 22 июл. 2020 г., 02:13:29
+[2020.07.21-20.13.29:500][762]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (P:\UE4\BattleTank).
+[2020.07.21-20.13.29:500][762]CompilerResultsLog: Building BTEditor...
+[2020.07.21-20.13.29:500][762]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.21-20.13.29:500][762]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.07.21-20.13.29:500][762]CompilerResultsLog:   [1/4] Tank.cpp
+[2020.07.21-20.13.29:500][762]CompilerResultsLog:    P:\UE4\BattleTank\BT\Source\BT\Private\Tank.cpp(29) : error C2065: CurrentHeath: ?????????? ??????䨪????
+[2020.07.21-20.13.29:500][762]LogMainFrame: MainFrame: Module compiling took 2.596 seconds
+[2020.07.21-20.13.29:501][762]Warning: HotReload failed, recompile failed
+[2020.07.21-20.13.50:902][508]Candidate modules for hot reload:
+[2020.07.21-20.13.50:902][508]  BT
+[2020.07.21-20.13.50:902][508]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BT,160 Win64 Development -TargetType=Editor -Project="P:/UE4/BattleTank/BT/BT.uproject" "P:/UE4/BattleTank/BT/BT.uproject"  -IgnoreJunk]
+[2020.07.21-20.13.50:904][508]Warning: Starting HotReload took  0.0s.
+[2020.07.21-20.13.52:959][548]LogSlate: Window 'Message Log' being destroyed
+[2020.07.21-20.13.52:962][548]LogSlate: Window 'Message Log' being destroyed
+[2020.07.21-20.13.54:093][552]CompilerResultsLog: New page: Compilation - 22 июл. 2020 г., 02:13:54
+[2020.07.21-20.13.54:093][552]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (P:\UE4\BattleTank).
+[2020.07.21-20.13.54:093][552]CompilerResultsLog: Building BTEditor...
+[2020.07.21-20.13.54:093][552]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.21-20.13.54:093][552]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.07.21-20.13.54:093][552]CompilerResultsLog:   [1/4] Tank.cpp
+[2020.07.21-20.13.54:093][552]CompilerResultsLog:   [2/4] UE4Editor-BT-0160.lib
+[2020.07.21-20.13.54:093][552]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-0160.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-0160.exp
+[2020.07.21-20.13.54:093][552]CompilerResultsLog:   [3/4] UE4Editor-BT-0160.dll
+[2020.07.21-20.13.54:093][552]CompilerResultsLog:      ????????? ??????⥪? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-0160.suppressed.lib ? ??ꥪ? P:\UE4\BattleTank\BT\Intermediate\Build\Win64\UE4Editor\Development\BT\UE4Editor-BT-0160.suppressed.exp
+[2020.07.21-20.13.54:094][552]CompilerResultsLog:   [4/4] BTEditor.target
+[2020.07.21-20.13.54:094][552]CompilerResultsLog: Total time in Parallel executor: 1,37 seconds
+[2020.07.21-20.13.54:094][552]CompilerResultsLog: Total execution time: 3,03 seconds
+[2020.07.21-20.13.54:094][552]LogMainFrame: MainFrame: Module compiling took 3.196 seconds
+[2020.07.21-20.13.54:131][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.07.21-20.13.54:152][552]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3052 classes and 735 folders.
+[2020.07.21-20.13.54:152][552]Display: HotReload took  3.3s.
+[2020.07.21-20.13.55:235][554]LogHotReload: New module detected: UE4Editor-BT-0160.dll
+[2020.07.21-20.13.55:269][555]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.21-20.13.55:384][555]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2020.07.21-20.13.55:432][555]LogClass: EFiringState HotReload.
+[2020.07.21-20.13.55:440][555]LogContentBrowser: Native class hierarchy updated for 'BT' in 0.0004 seconds. Added 10 classes and 3 folders.
+[2020.07.21-20.13.55:452][555]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.07.21-20.13.55:630][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.07.21-20.13.55:652][555]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3052 classes and 735 folders.
+[2020.07.21-20.13.55:656][555]Display: HotReload took  0.4s.
+[2020.07.21-20.13.59:617][569]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.21-20.13.59:644][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.13.59:644][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.21-20.13.59:644][569]PIE: New page: PIE session: BattleGround (22 июл. 2020 г., 02:13:59)
+[2020.07.21-20.13.59:644][569]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.14.04:058][569]LogPlayLevel: PIE: StaticDuplicateObject took: (4.413302s)
+[2020.07.21-20.14.04:059][569]LogAIModule: Creating AISystem for world BattleGround
+[2020.07.21-20.14.04:059][569]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2020.07.21-20.14.04:059][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (4.414595s)
+[2020.07.21-20.14.04:133][569]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.21-20.14.04:134][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.21-20.14.04:134][569]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.21-20.14.04:134][569]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.21-20.14.04:157][569]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.21-20.14.04:157][569]LogAudioMixer: Display: Name: Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: Is Default: Yes
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: Sample Rate: 44100
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: Channel Order:
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-20.14.04:158][569]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-20.14.04:173][569]LogAudioMixer: Display: Using Audio Device Динамики (Sound Blaster Tactic(3D) Sigma)
+[2020.07.21-20.14.04:174][569]LogInit: FAudioDevice initialized.
+[2020.07.21-20.14.04:179][569]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.07.21-20.14.04:189][569]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.07.21-23.14.04
+[2020.07.21-20.14.04:190][569]LogWorld: Bringing up level for play took: 0.010067
+[2020.07.21-20.14.04:190][569]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.07.21-20.14.04:194][569]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 5,058
+[2020.07.21-20.14.04:194][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.14.25:303][ 63]LogTemp: Warning: Your Tank was Destroed!
+[2020.07.21-20.14.27:389][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.14.27:390][313]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.21-20.14.27:410][313]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.21-20.14.27:410][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.14.27:410][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.14.27:410][313]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BattleGround
+[2020.07.21-20.14.27:410][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.14.27:410][313]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-20.14.27:413][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.14.27:420][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.21-20.14.27:420][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.07.21-20.14.27:425][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-20.14.27:464][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-20.14.27:467][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-20.14.27:489][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.07.21-20.14.27:519][314]LogPlayLevel: Display: Destroying online subsystem :Context_11

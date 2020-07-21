@@ -12,10 +12,29 @@ class BT_API ATank : public APawn
 {
 	GENERATED_BODY()
 
+
+
+
+public:
+
+	virtual float TakeDamage(
+		float DamageAmount,
+		struct FDamageEvent const& DamageEvent,
+		AController* EventInstigator,
+		AActor* DamageCauser
+	);
+
 private:
 
 	// Sets default values for this pawn's properties
 	ATank();
 
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	int32 FullHeath = 100;
+
+	UPROPERTY(VisibleAnywhere, Category = "Health")
+	int32 CurrentHealth = FullHeath;
+		
 };
