@@ -5,6 +5,11 @@
 #include "Engine/World.h"
 
 
+float ATank::GetHealthPercent()
+{
+	return (float)CurrentHealth / (float)FullHeath;
+}
+
 // Sets default values
 ATank::ATank()
 {

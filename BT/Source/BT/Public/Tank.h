@@ -24,6 +24,10 @@ public:
 		AActor* DamageCauser
 	);
 
+	// Returns CurrentHealts as a normalize procentage os fullHealth (0 to 1)
+	UFUNCTION(BlueprintPure, Category = "Health")
+	float GetHealthPercent();
+
 private:
 
 	// Sets default values for this pawn's properties
