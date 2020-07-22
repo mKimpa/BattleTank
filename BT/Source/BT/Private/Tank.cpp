@@ -33,7 +33,7 @@ float ATank::TakeDamage(
 	CurrentHealth -= DamageToApply;
 	if (CurrentHealth <= 0)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Your Tank was Destroed!"));
+		OnDeath.Broadcast();
 	}
 	
 	return DamageToApply;

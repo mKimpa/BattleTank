@@ -7,6 +7,8 @@
 #include "Tank.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FTankDelegate);
+
 UCLASS()
 class BT_API ATank : public APawn
 {
@@ -27,6 +29,8 @@ public:
 	// Returns CurrentHealts as a normalize procentage os fullHealth (0 to 1)
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetHealthPercent();
+
+	FTankDelegate OnDeath;
 
 private:
 
