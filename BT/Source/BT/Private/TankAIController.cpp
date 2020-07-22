@@ -9,8 +9,7 @@
 
 void ATankAIController::BeginPlay()
 {
-    Super::BeginPlay();
- 
+    Super::BeginPlay(); 
 }
 
 void ATankAIController::Tick(float DeltaTime)
@@ -50,7 +49,8 @@ void ATankAIController::Tick(float DeltaTime)
 
     void ATankAIController::OnPossesedTankDeath()
     {
-        UE_LOG(LogTemp, Warning, TEXT("Recieved!"))
+        if (!ensure(GetPawn())) { return; }
+        GetPawn()->DetachFromControllerPendingDestroy();
     }
 
 

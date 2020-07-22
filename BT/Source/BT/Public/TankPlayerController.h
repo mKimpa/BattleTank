@@ -22,6 +22,11 @@ private:
 
 	virtual void BeginPlay() override;
 
+	UFUNCTION()
+	void OnControlledTankDeath();
+
+	virtual void SetPawn(APawn* InPawn) override;
+
 
 protected:
 

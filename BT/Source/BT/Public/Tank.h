@@ -14,9 +14,6 @@ class BT_API ATank : public APawn
 {
 	GENERATED_BODY()
 
-
-
-
 public:
 
 	virtual float TakeDamage(
@@ -43,6 +40,6 @@ private:
 	int32 FullHeath = 100;
 
 	UPROPERTY(VisibleAnywhere, Category = "Health")
-	int32 CurrentHealth = FullHeath;
+	int32 CurrentHealth;
 		
 };

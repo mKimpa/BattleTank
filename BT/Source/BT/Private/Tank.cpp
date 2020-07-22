@@ -20,6 +20,7 @@ ATank::ATank()
 void ATank::BeginPlay()
 {
 	Super::BeginPlay(); // Need for BP Begin Play
+	CurrentHealth = FullHeath;
 }
 
 float ATank::TakeDamage(
