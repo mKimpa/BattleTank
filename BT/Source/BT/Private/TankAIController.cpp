@@ -42,7 +42,7 @@ void ATankAIController::Tick(float DeltaTime)
         if (InPawn)
         {
             auto PossesedTank = Cast<ATank>(InPawn);
-            if (!ensure(PossesedTank)) { return;}
+            if (!ensure(PossesedTank)) { return; }
             PossesedTank->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPossesedTankDeath);
         }
     }
